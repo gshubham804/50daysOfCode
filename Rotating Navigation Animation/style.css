@@ -1,0 +1,80 @@
+.main-div {
+    position: absolute;
+    top: 0%;
+  padding: 6.5rem 10rem 0 10rem;
+  background-color: white;
+}
+
+nav{
+    height:188vh;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-bottom: 1rem;
+    z-index: -1;
+}
+
+nav>*{
+    position: relative;
+    top: 70%;
+    bottom: 0;
+}
+
+.corner-round{
+    z-index: 1;
+    background-color: #ff7979;
+    height: 150px;
+    width: 150px;
+    font-size: 1.5rem;
+    color:white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: absolute; 
+    left: -70px;
+    top: -70px;
+}
+
+#option-icon{
+    position: relative; 
+    left: 30px;
+    top: 28px;
+    cursor: pointer;
+}
+
+#cross-icon{
+    display: none;
+    position: relative; 
+    left: 30px;
+    top: 28px;
+    cursor: pointer;
+}
+
+
+h1 {
+  font-size: 2.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  line-height: 1rem;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.long-para {
+  font-size: 1rem;
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  color: #333;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
